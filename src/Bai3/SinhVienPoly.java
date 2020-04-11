@@ -39,7 +39,7 @@ abstract public class SinhVienPoly
     
     
     public void Xuat(){
-        System.out.println("\nThong tin sinh vien: " + hoTen);
-        System.out.println("Nganh: " + nganh + "-- Diem: " + getDiem() + "-- Hoc luc: " + getHocLuc());
+        System.out.println("\nThong tin sinh vien\n: " + hoTen);
+        System.out.println("Nganh: " + nganh + " -- Diem: " + getDiem() + " -- Hoc luc: " + getHocLuc());
     }
 }
