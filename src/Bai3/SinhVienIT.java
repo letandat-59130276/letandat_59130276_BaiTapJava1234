@@ -11,9 +11,9 @@ package Bai3;
  */
 public class SinhVienIT extends SinhVienPoly 
 {
-    private double diemJava;
-    private double diemCSS;
-    private double diemHTML;
+    private final double diemJava;
+    private final double diemCSS;
+    private final double diemHTML;
 
     
     public SinhVienIT(String hoTen, double diemJava, double diemCSS, double diemHTML) {
