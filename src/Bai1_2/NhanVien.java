@@ -48,11 +48,7 @@ public class NhanVien
 
     
     public NhanVien(String ten, int tuoi, String diaChi, double tienLuong, int tongSoGioLam) {
-        this.ten = ten;
-        this.tuoi = tuoi;
-        this.diaChi = diaChi;
-        this.tienLuong = tienLuong;
-        this.tongSoGioLam = tongSoGioLam;
+        this.ten = ten; this.tuoi = tuoi; this.diaChi = diaChi; this.tienLuong = tienLuong; this.tongSoGioLam = tongSoGioLam;
     }
 
     
