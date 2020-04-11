@@ -14,7 +14,7 @@ public class Main {
         SinhVienIT sinhVienIT = new SinhVienIT("Le Tan Dat", 10.0, 10.0, 10.0);
         sinhVienIT.Xuat();
 
-        SinhVienBiz sinhVienBiz = new SinhVienBiz("Tran Thanh Tam", 6.0, 8.0);
+        SinhVienBiz sinhVienBiz = new SinhVienBiz("Tran Thanh Tam", 5.0, 7.0);
         sinhVienBiz.Xuat();
     }
 }
