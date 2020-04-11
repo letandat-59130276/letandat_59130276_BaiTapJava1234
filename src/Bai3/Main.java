@@ -10,12 +10,11 @@ package Bai3;
  * @author Con Meo Cutee
  */
 public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        SinhVienIT sinhVienIT = new SinhVienIT("Le Tan Dat", 10.0, 10.0, 10.0);
+        sinhVienIT.Xuat();
+
+        SinhVienBiz sinhVienBiz = new SinhVienBiz("Tran Thanh Tam", 5.0, 7.0);
+        sinhVienBiz.Xuat();
     }
-    
 }
