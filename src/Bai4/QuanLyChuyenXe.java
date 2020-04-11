@@ -32,7 +32,7 @@ public class QuanLyChuyenXe {
    public long tinhDoanhThuNoiThanh(){
         long tongNoiThanh =0;
        for(int i=0;i<dsChuyenXe.size();i++){
-           NoiThanh nt = dsChuyenXe.get(i) instanceof NoiThanh ? ((NoiThanh) dsChuyenXe.get(i)) : null;
+          ChuyenXeNoiThanh nt = dsChuyenXe.get(i) instanceof ChuyenXeNoiThanh ? ((ChuyenXeNoiThanh) dsChuyenXe.get(i)) : null;
            if(nt !=null) tongNoiThanh+= nt.doanhThu;
        }
        return tongNoiThanh;
@@ -40,7 +40,7 @@ public class QuanLyChuyenXe {
     public long tinhDoanhThuNgoaiThanh(){
         long tongNgoaiThanh =0;
         for(int i=0;i<dsChuyenXe.size();i++){
-            NgoaiThanh nt = dsChuyenXe.get(i) instanceof NgoaiThanh ? ((NgoaiThanh) dsChuyenXe.get(i)) : null;
+            ChuyenXeNgoaiThanh nt = dsChuyenXe.get(i) instanceof ChuyenXeNgoaiThanh ? ((ChuyenXeNgoaiThanh) dsChuyenXe.get(i)) : null;
             if(nt !=null) tongNgoaiThanh+= nt.doanhThu;
         }
         return tongNgoaiThanh;
