@@ -9,6 +9,39 @@ package Bai4;
  *
  * @author Con Meo Cutee
  */
-public class ChuyenXeNgoaiThanh {
+public class NgoaiThanh extends ChuyenXe {
+    private double soNgay;
+    private String noiDen;
+
+    public NgoaiThanh(String maSo, String hoTen, String soXe, String noiDen, double soNgay, long doanhThu) {
+        super(maSo, hoTen, soXe, doanhThu);
+        this.soNgay = soNgay;
+        this.noiDen = noiDen;
+    }
     
+    public String getNoiDen() {
+        return noiDen;
+    }
+
+    public void setNoiDen(String noiDen) {
+        this.noiDen = noiDen;
+    }
+    
+    public double getSoNgay() {
+        return soNgay;
+    }
+
+    public void setSoNgay(double soNgay) {
+        this.soNgay = soNgay;
+    }
+
+    @Override
+    public void Xuat() {
+        System.out.println( "Ma so:" + maSo + 
+                            ", Hoten:" + hoTen +
+                            ", So xe:" + soXe +
+                            ", Noi den:" + noiDen +
+                            ", So ngay:" + soNgay +
+                            ", Doanh thu:" + doanhThu);
+    }
 }
