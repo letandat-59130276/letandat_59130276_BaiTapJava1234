@@ -12,7 +12,6 @@ import java.util.ArrayList;
  * @author Con Meo Cutee
  */
 public class QuanLyNhanVien implements IQuanLy{
-    // danh sach nhan vien
   ArrayList<NhanVien> dsNhanVien = new ArrayList<>();
   
   @Override
