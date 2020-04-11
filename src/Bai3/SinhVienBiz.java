@@ -9,18 +9,21 @@ package Bai3;
  *
  * @author Con Meo Cutee
  */
-public class SinhVienBiz extends SinhVienPoly {
+public class SinhVienBiz extends SinhVienPoly 
+{
     private double diemMarketing;
     private double diemSales;
 
+    
     public SinhVienBiz(String hoTen, double diemMarketing, double diemSales) {
         super(hoTen, "Biz");
-        this.diemMarketing = diemMarketing;
-        this.diemSales = diemSales;
+        this.diemMarketing = diemMarketing; this.diemSales = diemSales;
     }
 
+    
     @Override
-    public double getDiem() {
+    public double getDiem() 
+    {
         return (2*diemMarketing + diemSales)/(double)3;
     }
 }
