@@ -66,5 +66,4 @@ public class NhanVien
     public String getThongTin() {
         return "Ten: " + ten + " -- Tuoi:" + tuoi + " -- Dia chi:" + diaChi + " -- Tien luong:" + tienLuong + " -- Tong so gio lam:" + tongSoGioLam + " -- Tien thuong: " + getThuong();
     }
-
 }
