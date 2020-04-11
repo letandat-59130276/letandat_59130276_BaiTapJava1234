@@ -13,9 +13,6 @@ public class Main {
     public static void main(String[] args) {
         SinhVienIT sinhVienIT = new SinhVienIT("Le Tan Dat", 10.0, 10.0, 10.0);
         sinhVienIT.Xuat();
-        
-        SinhVienIT sinhVienIT = new SinhVienIT("Nguyen Tien Thanh", 6.0, 7.0, 8.0);
-        sinhVienIT.Xuat();
 
         SinhVienBiz sinhVienBiz = new SinhVienBiz("Tran Thanh Tam", 5.0, 7.0);
         sinhVienBiz.Xuat();
