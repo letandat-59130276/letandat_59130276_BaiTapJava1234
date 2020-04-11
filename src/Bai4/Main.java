@@ -13,13 +13,13 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        NoiThanh noiThanh1 = new NoiThanh("1","Tran Thanh Thi","123",20,200,100000);
-        NoiThanh noiThanh2 = new NoiThanh("1","Tran Van Thanh","1203",10,150,60000);
-        NoiThanh noiThanh3 = new NoiThanh("1","Nguyen Khoa","723",15,1850,85000);
+        ChuyenXeNoiThanh noiThanh1 = new ChuyenXeNoiThanh("1","Tran Thanh Thi","123",20,200,100000);
+        ChuyenXeNoiThanh noiThanh2 = new ChuyenXeNoiThanh("1","Tran Van Thanh","1203",10,150,60000);
+        ChuyenXeNoiThanh noiThanh3 = new ChuyenXeNoiThanh("1","Nguyen Khoa","723",15,1850,85000);
 
-        NgoaiThanh ngoaiThanh1 = new NgoaiThanh("1","Tran Thanh Thi","331","HN",20,7000000);
-        NgoaiThanh ngoaiThanh2 = new NgoaiThanh("1","Tran Thanh Thi","777","TPHCM",10,3500000);
-        NgoaiThanh ngoaiThanh3 = new NgoaiThanh("1","Tran Thanh Thi","227","Nha Trang",15,6000000);
+        ChuyenXeNgoaiThanh ngoaiThanh1 = new ChuyenXeNgoaiThanh("1","Tran Thanh Thi","331","HN",20,7000000);
+        ChuyenXeNgoaiThanh ngoaiThanh2 = new ChuyenXeNgoaiThanh("1","Tran Thanh Thi","777","TPHCM",10,3500000);
+        ChuyenXeNgoaiThanh ngoaiThanh3 = new ChuyenXeNgoaiThanh("1","Tran Thanh Thi","227","Nha Trang",15,6000000);
 
         QuanLyChuyenXe quanLyChuyenXe=new QuanLyChuyenXe();
         quanLyChuyenXe.them(noiThanh1);
