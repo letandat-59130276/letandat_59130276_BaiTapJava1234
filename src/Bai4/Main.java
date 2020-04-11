@@ -3,20 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package letandat_59130276_baitap1234;
+package Bai4;
 
 /**
  *
  * @author Con Meo Cutee
  */
-public class LeTanDat_59130276_BaiTap1234 {
+public class Main {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
     }
     
 }
