@@ -27,15 +27,13 @@ public class Main
         
         QuanLyNhanVien quanLyNhanVien = new QuanLyNhanVien();
         NhanVien nv3 = new NhanVien("Tran Van Tin", 20, "Ha Noi", 150000, 150);
-        NhanVien nv4 = new NhanVien("Tran Thanh Minh", 25, "Bac Ninh", 170000, 130);
-        NhanVien nv5 = new NhanVien("Ngo Khac Tien", 27, "Khanh Hoa", 110000, 140);
+        
 
         
         quanLyNhanVien.them(nv1);
         quanLyNhanVien.them(nv2);
         quanLyNhanVien.them(nv3);
-        quanLyNhanVien.them(nv4);
-        quanLyNhanVien.them(nv5);
+        
 
         
         quanLyNhanVien.inDS();
