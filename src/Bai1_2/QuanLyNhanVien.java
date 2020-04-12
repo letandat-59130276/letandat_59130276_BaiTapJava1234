@@ -23,4 +23,5 @@ public class QuanLyNhanVien implements IQuanLy{
   public void inDS() {
     dsNhanVien.forEach(nv -> System.out.println(nv.getThongTin()));
   };
+  
 }
