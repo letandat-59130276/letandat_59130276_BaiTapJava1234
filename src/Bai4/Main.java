@@ -9,7 +9,8 @@ package Bai4;
  *
  * @author Con Meo Cutee
  */
-public class Main {
+public class Main 
+{
 
     public static void main(String[] args) 
     {

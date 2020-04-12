@@ -9,15 +9,18 @@ package Bai4;
  *
  * @author Con Meo Cutee
  */
-public class NgoaiThanh extends ChuyenXe {
+public class NgoaiThanh extends ChuyenXe 
+{
     private final double soNgay;
     private final String noiDen;
 
+    
     public NgoaiThanh(String maSo, String hoTen, String soXe, String noiDen, double soNgay, double doanhThu) {
         super(maSo, hoTen, soXe, doanhThu);
         this.soNgay = soNgay;
         this.noiDen = noiDen;
     }
+    
 
     @Override
     public void Xuat() {

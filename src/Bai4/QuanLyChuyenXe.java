@@ -10,7 +10,8 @@ import java.util.ArrayList;
  *
  * @author Con Meo Cutee
  */
-public class QuanLyChuyenXe {
+public class QuanLyChuyenXe 
+{
     ArrayList<ChuyenXe>dsChuyenXe = new ArrayList<ChuyenXe>();
 
     public void them(ChuyenXe x){
@@ -21,7 +22,9 @@ public class QuanLyChuyenXe {
             dsChuyenXe.get(i).Xuat();
         }
     }
-   public double tinhDoanhThuNoiThanh(){
+    
+    
+    public double tinhDoanhThuNoiThanh(){
         double tongNoiThanh =0;
        for(int i = 0; i < dsChuyenXe.size(); i++){
             NoiThanh nt = dsChuyenXe.get(i) instanceof NoiThanh?((NoiThanh) dsChuyenXe.get(i)):null;
@@ -30,7 +33,10 @@ public class QuanLyChuyenXe {
        }
        return tongNoiThanh;
    }
-    public double tinhDoanhThuNgoaiThanh(){
+   
+   
+    public double tinhDoanhThuNgoaiThanh()
+    {
         double tongNgoaiThanh =0;
         for(int i = 0; i < dsChuyenXe.size(); i++){
             NgoaiThanh nt = dsChuyenXe.get(i) instanceof NgoaiThanh?((NgoaiThanh) dsChuyenXe.get(i)):null;
@@ -39,6 +45,8 @@ public class QuanLyChuyenXe {
         }
         return tongNgoaiThanh;
     }
+    
+    
     public double tinhTongDoanhThu(){
         double tong =0;
         for(int i = 0; i < dsChuyenXe.size(); i++){
