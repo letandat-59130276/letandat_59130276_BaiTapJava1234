@@ -9,7 +9,8 @@ package Bai3;
  *
  * @author Con Meo Cutee
  */
-public class Main {
+public class Main 
+{
     public static void main(String[] args) 
     {
         SinhVienIT sinhVienIT = new SinhVienIT("Le Tan Dat", 10.0, 10.0, 10.0);

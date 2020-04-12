@@ -11,11 +11,12 @@ package Bai3;
  */
 public class SinhVienBiz extends SinhVienPoly 
 {
-    private double diemMarketing;
-    private double diemSales;
+    private final double diemMarketing;
+    private final double diemSales;
 
     
-    public SinhVienBiz(String hoTen, double diemMarketing, double diemSales) {
+    public SinhVienBiz(String hoTen, double diemMarketing, double diemSales) 
+    {
         super(hoTen, "Biz");
         this.diemMarketing = diemMarketing; this.diemSales = diemSales;
     }

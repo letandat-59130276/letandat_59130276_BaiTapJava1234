@@ -23,7 +23,8 @@ abstract public class SinhVienPoly
     abstract public double getDiem();
 
     
-    public String getHocLuc(){
+    public String getHocLuc()
+    {
         double diem = getDiem();
         String hocLuc;
             if(diem<5) hocLuc = "Yeu";
@@ -38,7 +39,8 @@ abstract public class SinhVienPoly
     }
     
     
-    public void Xuat(){
+    public void Xuat()
+    {
         System.out.println("\nThong tin sinh vien\n: " + hoTen);
         System.out.println("Nganh: " + nganh + " -- Diem: " + getDiem() + " -- Hoc luc: " + getHocLuc());
     }
