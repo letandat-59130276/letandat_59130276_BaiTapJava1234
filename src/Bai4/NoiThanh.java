@@ -26,7 +26,6 @@ public class NoiThanh extends ChuyenXe
     @Override
     public void Xuat() 
     {
-        System.out.println("Ma so: " + maSo + " -- Hoten: " + hoTen + " -- So xe: " + soXe + " -- So Tuyen"
-            + soTuyen + " -- So km: " + soKm + " -- Doanh thu: "+doanhThu);
+        System.out.println("Ma so: " + maSo + " -- Hoten: " + hoTen + " -- So xe: " + soXe + " -- So Tuyen" + soTuyen + " -- So km: " + soKm + " -- Doanh thu: "+doanhThu);
     }
 }
