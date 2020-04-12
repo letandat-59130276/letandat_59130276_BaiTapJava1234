@@ -11,7 +11,8 @@ package Bai1_2;
  */
 public class Main 
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         NhanVien nv1 = new NhanVien();
         nv1.setTen("Le Tan Dat");
         nv1.setTuoi(22);
@@ -23,8 +24,6 @@ public class Main
         
         NhanVien nv2 = new NhanVien("Nguyen Duc Manh", 22, "TP.HCM", 140000, 120);
         System.out.println("Thong tin cua nhan vien:\n" + nv2.getThongTin());
-
-        
         QuanLyNhanVien quanLyNhanVien = new QuanLyNhanVien();
         NhanVien nv3 = new NhanVien("Tran Van Tin", 20, "Ha Noi", 150000, 150);
         NhanVien nv4 = new NhanVien("Tran Thanh Minh", 25, "Bac Ninh", 170000, 130);

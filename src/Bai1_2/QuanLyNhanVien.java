@@ -11,17 +11,22 @@ import java.util.ArrayList;
  *
  * @author Con Meo Cutee
  */
-public class QuanLyNhanVien implements IQuanLy{
-  ArrayList<NhanVien> dsNhanVien = new ArrayList<>();
-  
-  @Override
-  public void them(NhanVien nv) {
-    dsNhanVien.add(nv);
-  };
+public class QuanLyNhanVien implements IQuanLy
+{
+    ArrayList<NhanVien> dsNhanVien = new ArrayList<>();
 
-  @Override
-  public void inDS() {
-    dsNhanVien.forEach(nv -> System.out.println(nv.getThongTin()));
-  };
+    
+    @Override
+    public void them(NhanVien nv) 
+    {
+      dsNhanVien.add(nv);
+    };
+
+    
+    @Override
+    public void inDS() 
+    {
+      dsNhanVien.forEach(nv -> System.out.println(nv.getThongTin()));
+    };
   
 }
