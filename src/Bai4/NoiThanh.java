@@ -9,11 +9,11 @@ package Bai4;
  *
  * @author Con Meo Cutee
  */
-public class ChuyenXeNoiThanh extends ChuyenXe {
-    private int soTuyen;
-    private double soKm;
+public class NoiThanh extends ChuyenXe {
+    private final int soTuyen;
+    private final double soKm;
 
-    public ChuyenXeNoiThanh(String maSo, String hoTen, String soXe, int soTuyen, double soKm, long doanhThu) {
+    public NoiThanh(String maSo, String hoTen, String soXe, int soTuyen, double soKm, double doanhThu) {
         super(maSo, hoTen, soXe, doanhThu);
         this.soTuyen = soTuyen;
         this.soKm = soKm;
@@ -21,6 +21,7 @@ public class ChuyenXeNoiThanh extends ChuyenXe {
 
     @Override
     public void Xuat() {
-        System.out.println("Ma so:"+maSo+", Hoten:"+hoTen+", So xe:"+soXe+", So Tuyen"+soTuyen+"So km:"+soKm+", Doanh thu:"+doanhThu);
+        System.out.println("Ma so: " + maSo + " -- Hoten: " + hoTen + " -- So xe: " + soXe + " -- So Tuyen"
+            + soTuyen + " -- So km: " + soKm + " -- Doanh thu: "+doanhThu);
     }
 }
