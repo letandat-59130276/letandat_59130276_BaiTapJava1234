@@ -9,18 +9,22 @@ package Bai4;
  *
  * @author Con Meo Cutee
  */
-abstract public class ChuyenXe {
+abstract public class ChuyenXe 
+{
     String maSo;
     String hoTen;
     String soXe;
     double doanhThu;
 
-   public ChuyenXe(String maSo, String hoTen, String soXe, double doanhThu) {
+    
+   public ChuyenXe(String maSo, String hoTen, String soXe, double doanhThu) 
+   {
        this.maSo = maSo;
        this.hoTen = hoTen;
        this.soXe = soXe;
        this.doanhThu = doanhThu;
    }
+   
    
    abstract public void Xuat();
 }
